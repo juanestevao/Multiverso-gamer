@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&family=Public+Sans:ital,wght@0.100..900;1.100..900&family=Roboto+Flex:opsz,wght@8..144.100..1000&display=swap ');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Poppins;
+}
+
+:root{
+    --cor-principal: #5ce1e6;
+    --cor-secundaria: #cb6ce6;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    
+    height: 100vh;
+    
+
+}
+
+
+header{
+    width: 100%;
+    height: 100%;
+    
+    padding: 0 150px;
+}
+
+
+
+nav{
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    height: 20%;
+    border-bottom:  1px solid grey;
+    
+    left: 0;
+    box-shadow: 1px 1px 1px #cb6ce6;
+    
+}
+.nav_mobile{
+    display: none;
+}
+.fallow{
+    background-color: #cb6ce6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color: white;
+    
+}
+.fallow > p{
+    margin-left: 150px;
+    font-size: 12px;
+}
+.fallow > ul{
+    margin-right:150px;
+    display: flex;
+}
+.fallow > ul > li{
+    list-style: none;
+    margin-left: 5px;
+}
+.fallow > ul > li > a{
+    color: white;
+}
+
+
+
+.navegaçao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 80%;
+    
+   
+}
+.navegaçao>ul{
+    margin-right: 150px;
+    display: flex;
+    
+}
+.navegaçao>ul > li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 1em;
+    
+}
+.navegaçao>ul > li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    
+    
+}
+
+.navegaçao>ul > li > a:hover{
+    color: #cb6ce6;
+    
+}
+.caixa_img{
+    position: relative;
+    margin-left: 150px;
+    width: 150px;
+    height: 120%;
+    
+    top: 10px;
+}
+.caixa_img >img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.caixa_slide{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    height: 60%;
+    
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.slide{
+    position: relative;
+    background-color: blue;
+    height: 100%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.764);
+}
+
+.caixa_principal_sl{
+    
+    width: 400%;
+    height: 100%;
+    
+    
+    display: flex;
+    
+    
+}
+.caixa_principal_sl > input{
+    display:  none;
+}
+.banner{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    
+    transition: 0.5s;
+}
+.banner > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.navegacao{
+    
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px;
+    
+    width: 100px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacao > div{
+    width: 15%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.label{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    
+    width: 100px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.label > label{
+    cursor: pointer;
+    width: 15%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#slide1:checked ~ .banner .sl{
+    margin-left: 0;
+}
+#slide2:checked ~  .sld{
+    margin-left: -25%;
+}
+#slide3:checked ~.sld{
+    margin-left: -50%;
+}
+#slide4:checked ~ .sld{
+    margin-left:  -75%;
+}
+
+#slide1:checked~ .navegacao .btn1{
+    background-color: #cb6ce6;
+}
+#slide2:checked ~ .navegacao .btn2{
+    background-color: #cb6ce6;
+}
+#slide3:checked ~ .navegacao .btn3{
+    background-color: #cb6ce6;
+}
+#slide4:checked ~ .navegacao .btn4{
+    background-color: #cb6ce6;
+}
+.img_top{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.764); 
+}    
+.img_top > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.img_bottom{
+    background-color: green;
+    height:100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.764); 
+}
+.img_bottom > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.caixa_noticia_recentes{
+    
+    position: relative;
+    padding: 0 150px;
+    
+}
+.caixa_noticias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px gray;
+    
+}
+.h1{
+    text-align: center;
+    color: #5ce1e6;
+    text-shadow: 2px 1px 1px #cb6ce6;
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+
+}
+.caixa_noticias > article{
+    border-top: 1px solid rgba(0, 0, 0, 0.248);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 170px;
+    padding: 10px;
+    
+}
+.caixa_noticia_recentes > aside{
+    
+    height: 89%;
+    width: 20%;
+    position: absolute;
+    margin: 0px -30px;
+    left: 70%;
+    top:  7%;
+    
+   
+}
+.caixa_noticia_recentes > aside div{
+    border: 1px solid white;
+    width: 100%;
+    height: 50%;
+}
+
+.aside1{
+    background-color: #cb6ce6;
+}
+.aside2{
+    background-color: #5ce1e6;
+}
+.img_noticia{
+    
+    height: 100%;
+    width: 20%;
+    
+    
+}
+.img_noticia > img{
+    width: 100%;
+    height: 100%;;
+    border-radius: 10px;
+}
+.artigo{
+    
+    width: 77%;
+    height: 100%;
+    padding: 5px;
+    
+}
+.data_noticia{
+    
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.p_noticia{
+    color: #cb6ce6;
+}
+.texto_noticia{
+    
+    width: 100%;
+    height: 70%;
+}
+.texto_noticia > a{
+    text-decoration: none;
+    color: black;
+}
+
+.texto_noticia > a > p{
+    margin-top: 20px;
+}
+
+.caixa_promocoes_recentes{
+    width: 100%;
+    height: 100%;
+   
+    padding: 0 150px;
+    margin-top: 10%;
+}
+.caixa_promocoes{
+    width: 100%;
+    
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px gray;
+}
+.caixa_card{
+    
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    padding: 5px;
+}
+.card_game{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 170px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px gray;
+    transition: 0.5s;
+}
+.card_game:hover{
+    transform: scale(1.1);
+}
+.link_img{
+    
+    width: 100%;
+    height: 70%;
+}
+.link_img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-size: contain;
+    border-radius: 10px 10px 0 0;
+    
+}
+.caixa_valor{
+    
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+.porcentagem{
+    background-color: #18c031;
+    padding: 0 2px;
+    color: black;
+}
+.valor_antigo{
+    color: gray;
+    text-decoration: line-through;
+}
+.promocao{
+    color: black;
+    font-weight: bold;
+}
+.loja_link{
+    width: 100%;
+    height: 15%;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loja_link > img{
+    height: 100%;
+    width: 50%;;
+    position: absolute;
+    object-fit: cover;
+    
+}

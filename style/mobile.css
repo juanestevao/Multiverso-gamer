@@ -1,0 +1,417 @@
+
+@media(max-width: 390px){
+    .header{
+        width: 100vw;
+        height: 70%;
+        padding: 0 ;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+    .nav{
+        display: none;
+    }
+    .nav_mobile{
+        display: flex;
+        width: 100vw;
+        height: 10%;
+        box-shadow: 1px 2px 2px #5ce1e6;
+        background-color: #cb6ce6;
+        
+        
+        
+    }
+    .logo_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 100%;
+        
+    }
+    .logo_mobile > img{
+        position: absolute;
+        left: 0;
+        top: 10%;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        ;
+    }
+    .hamburgue{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 10px;
+        border: none;
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        
+
+
+    }
+    .caixa_slide{
+
+        width: 93vw;
+        height: 70%;
+        display: grid;
+        align-items: center;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+    .slide{
+        
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .caixa_noticia_recentes{
+        padding: 0 15px;
+        
+    }
+    .h1{
+        font-size: 1.5em;
+    }
+    .caixa_noticias > article{
+        width: 100%;
+        height: 100px;
+        
+    }
+    .img_noticia{
+        position: relative;
+        top: 10px;
+        width: 20%;
+        height: 90%;
+    }
+    .texto_noticia{
+        width: 100%;
+    }
+    .texto_noticia > a > h1{
+        font-size: 0.9em;
+    }
+    .texto_noticia > a > p{
+        margin: 0;
+        margin-top: 10px;
+        color: gray;
+    }
+    .caixa_noticia_recentes > aside{
+        display: none;
+    }
+    .caixa_promocoes_recentes{
+        padding: 0 15px;
+    }
+    .caixa_card{
+        width: 100%;
+        
+    }
+    .card_game{
+        width: 30%;
+        height: 40%;
+        flex-wrap: wrap;
+    }
+    .caixa_valor{
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    .caixa_valor > p{
+        margin: 0 0 10px;
+    }
+    .box_noticias{
+        padding: 0 10px;
+    }
+    .titulo{
+        font-size: 1.5em;
+    }
+    .img_texto{
+        width: 90%;
+        height: 50%;
+    }
+    .box_lateral_mobile{
+        position: absolute;
+        padding-left: 20px;
+        background-color: white;
+        top: 100%;
+        
+        box-shadow: 1px 2px 2px #5ce1e6;
+        width: 70%;
+        height: 0;
+        z-index: 10;
+        transition: 0.5s;
+        overflow: hidden;
+       background-color: #cb6ce6;
+        
+        
+        
+    }
+    .aberto{
+        position: absolute;
+        top: 100%;
+        width: 70%;
+        height: 40vh;
+        transition: 0.5s;
+        
+    }
+    .subir{
+        
+        transition: 0,5s;
+        height: -70px;
+        
+    }
+    
+    .box_lateral_mobile > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_lateral_mobile > ul > li{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    .box_lateral_mobile > ul > li > a{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .box_lateral_mobile > ul > li > a > i{
+        margin-right: 10px;
+    }
+    .fechar{
+        position: absolute;
+        bottom: 0;
+        right: 0;;
+        margin: 5px;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    .fechar > i{
+        color: white;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 490px){
+    .header{
+        width: 100vw;
+        height: 70%;
+        padding: 0 ;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+    .nav{
+        display: none;
+    }
+    .nav_mobile{
+        display: flex;
+        width: 100vw;
+        height: 10%;
+        box-shadow: 1px 2px 2px #5ce1e6;
+        background-color: #cb6ce6;
+        
+        
+        
+    }
+    .logo_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 100%;
+        
+    }
+    .logo_mobile > img{
+        position: absolute;
+        left: 0;
+        top: 10%;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        ;
+    }
+    .hamburgue{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 10px;
+        border: none;
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        
+
+
+    }
+    .caixa_slide{
+
+        width: 93vw;
+        height: 70%;
+        display: grid;
+        align-items: center;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+    .slide{
+        
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .caixa_noticia_recentes{
+        padding: 0 15px;
+        
+    }
+    .h1{
+        font-size: 1.5em;
+    }
+    .caixa_noticias > article{
+        width: 100%;
+        height: 100px;
+        
+    }
+    .img_noticia{
+        position: relative;
+        top: 10px;
+        width: 20%;
+        height: 90%;
+    }
+    .texto_noticia{
+        width: 100%;
+    }
+    .texto_noticia > a > h1{
+        font-size: 0.9em;
+    }
+    .texto_noticia > a > p{
+        margin: 0;
+        margin-top: 10px;
+        color: gray;
+    }
+    .caixa_noticia_recentes > aside{
+        display: none;
+    }
+    .caixa_promocoes_recentes{
+        padding: 0 15px;
+    }
+    .caixa_card{
+        width: 100%;
+        
+    }
+    .card_game{
+        width: 30%;
+        height: 40%;
+        flex-wrap: wrap;
+    }
+    .caixa_valor{
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    .caixa_valor > p{
+        margin: 0 0 10px;
+    }
+    .box_noticias{
+        padding: 0 10px;
+    }
+    .titulo{
+        font-size: 1.5em;
+    }
+    .img_texto{
+        width: 90%;
+        height: 50%;
+    }
+    .box_lateral_mobile{
+        position: absolute;
+        padding-left: 20px;
+        background-color: white;
+        top: 100%;
+        
+        box-shadow: 1px 2px 2px #5ce1e6;
+        width: 70%;
+        height: 0;
+        z-index: 10;
+        transition: 0.5s;
+        overflow: hidden;
+       background-color: #cb6ce6;
+        
+        
+        
+    }
+    .aberto{
+        position: absolute;
+        top: 100%;
+        width: 70%;
+        height: 40vh;
+        transition: 0.5s;
+        
+    }
+    .subir{
+        
+        transition: 0,5s;
+        height: -70px;
+        
+    }
+    
+    .box_lateral_mobile > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_lateral_mobile > ul > li{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    .box_lateral_mobile > ul > li > a{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .box_lateral_mobile > ul > li > a > i{
+        margin-right: 10px;
+    }
+    .fechar{
+        position: absolute;
+        bottom: 0;
+        right: 0;;
+        margin: 5px;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    .fechar > i{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
