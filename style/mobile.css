@@ -670,12 +670,16 @@
         grid-column-start: 1;
         grid-column-end: 4;
     }
+    
     .caixa_noticia_recentes{
         padding: 0 15px;
         
     }
     .h1{
         font-size: 1.5em;
+    }
+    .caixa_noticias{
+        padding: 5px;
     }
     .caixa_noticias > article{
         width: 100%;
