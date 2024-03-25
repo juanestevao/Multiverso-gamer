@@ -498,6 +498,7 @@
         margin: 0;
         margin-top: 5px;
         color: gray;
+        font-size: 15px;
     }
     .caixa_noticia_recentes > aside{
         display: none;
