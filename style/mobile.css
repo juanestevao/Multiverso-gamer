@@ -1,7 +1,7 @@
 
 
 
-@media(max-width: 1500px){
+@media(max-width: 1200px){
     .header{
         width: 100vw;
         height: 70%;
@@ -56,6 +56,9 @@
 
 
     }
+    .box_lateral_mobile{
+        font-size: 1em;
+    }
     .caixa_slide{
 
         width: 93vw;
@@ -76,7 +79,7 @@
         
     }
     .h1{
-        font-size: 1.5em;
+        font-size: 2.2em;
     }
     .caixa_noticias{
         padding: 5px;
