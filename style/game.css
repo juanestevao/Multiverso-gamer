@@ -1,0 +1,661 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #5ce1e6;
+    --cor-secundaria: #cb6ce6;
+}
+header{
+    width: 97vw;
+    height: 20%;
+    margin-bottom: 50px;
+   
+}
+.nav{
+    z-index: 15;
+    background-color:  #cc6ce62a;
+    box-shadow: 2px 2px 2px #5ce1e6;
+}
+.fallow{
+  
+}
+.navegaçao > ul > li > a{
+    color: white;
+    font-weight: bolder;
+}
+
+.navegaçao > ul > li > a:hover{
+    color: #5ce1e6;
+}
+
+.img_fundo{
+    background-image: url(../saturno.jpg);
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 665px;
+    
+}
+#noticias_geral{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    
+    padding: 0 150px;
+}
+.article{
+    z-index: 10;
+    width: 100%;
+    
+    
+}
+.slide_duo{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    
+    height: 300px;
+}
+
+.slide01{
+    
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.764);
+}
+.slide01 > img{
+    width: 100%;
+    height: 100%;
+}
+.slide02{
+    
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.764);
+}
+.slide02 > img{
+    width: 100%;
+    height: 100%;
+}
+.noticia_game{
+    
+    margin-top: 10%;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_game{
+    display: flex;
+    width: 75%;
+    height: 20%;
+    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.492);
+    padding: 5px 0px;
+}
+.img_game_not{
+    width: 35%;
+    height: 100%;
+    background-color: #cb6ce6;
+    margin-right: 10px;
+}
+
+.img_game_not > img{
+    width: 100%;
+    height: 100%;
+}
+.titulo_not{
+    width: 100%;
+    height: 100%;
+    
+}
+@media(max-width: 1200px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 300px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 10px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 45%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+@media(max-width: 1000px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 300px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 10px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 30%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+
+@media(max-width: 800px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 300px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 10px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 45%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+@media(max-width: 600px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 250px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 10px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 50%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+@media(max-width: 420px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 150px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 5px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 70%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 150px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 5px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 45%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+
+@media(max-width: 320px){
+    .img_fundo{
+       height: 70%;
+        
+    }
+        
+    #noticias_geral{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        z-index: 1;
+        
+        padding: 0 ;
+    }
+    .slide_duo{
+        display: none;
+    }
+    .slide_mobile{
+        width: 100%;
+        height: 120px;
+        overflow: hidden
+        
+    }
+    .caixa_slide_mobile{
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+    .caixa_slide_mobile > input{
+        display: none;
+    }
+    .banner_mobile{
+        
+        width: 25%;
+        height: 100%;
+        padding: 0px 5px;
+        transition: 0.5s;
+        
+    }
+    .banner_mobile > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.681)
+    }
+    .noticia_game{
+        margin-top: 45%;
+        padding: 0 10px;
+    }
+    .caixa_game{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img_game_not{
+        height: 100%;
+        width: 40%;
+        margin: 0 4px;
+    }
+    .caixa_game{
+        height: 15%;
+        
+    }
+    .data{
+        position: absolute;
+        right: 15px;
+        font-size: 10px;
+    }
+    .texto_noticia > a >h1{
+        width: 135%;
+        font-size: 12px;
+    }
+    .texto_noticia > a >p{
+        display: none;
+    }
+}
+
