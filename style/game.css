@@ -210,7 +210,7 @@ header{
 }
 .Playtation, .xbox, .nitendo, .pc{
     margin-top: 10%;
-    
+    border-top: 1px solid lightgray;
     height: 100%;
     width: 100%;
     padding: 10px;
