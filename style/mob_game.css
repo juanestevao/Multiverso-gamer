@@ -126,6 +126,28 @@
     .texto_noticia > a >p{
         font-size: 1.5em;
     }
+    .destaque{
+        display: none;
+    }
+    .caixa_playstation{
+        width: 100%;
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 100%;
+    }
+    .h2_data > h2{
+        font-size: 20px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
 
 }
 @media(max-width: 800px){
@@ -253,6 +275,54 @@
     }
     .texto_noticia > a >p{
         display: none;
+    }
+    .destaque{
+        display: none;
+    }
+    .Playtation,.xbox,.nitendo,.pc{
+        width: 100%;
+        padding: 0px;
+        height: 100%;
+        
+    }
+    .caixa_playstation{
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: 100%;
+    
+        
+    }
+
+    .not_paly{
+        display: flex;
+        width: 100%;
+        height: 170px;
+        margin-top: 10px;
+        align-items: center;
+        
+        padding: 0;
+        
+    }
+    .img_not{
+        width: 200px;
+        height: 150px;
+        margin-right: 10px;
+        
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 60%;
+    }
+    .h2_data > h2{
+        font-size: 22px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 17px;
     }
 
 }
@@ -385,6 +455,54 @@
     .texto_noticia > a >p{
         
     }
+    .destaque{
+        display: none;
+    }
+    .Playtation,.xbox,.nitendo,.pc{
+        width: 100%;
+        padding: 0px;
+        height: 100%;
+        
+    }
+    .caixa_playstation{
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: 100%;
+    
+        
+    }
+
+    .not_paly{
+        display: flex;
+        width: 100%;
+        height: 140px;
+        margin-top: 10px;
+        align-items: center;
+        
+        padding: 0;
+        
+    }
+    .img_not{
+        width: 170px;
+        height: 120px;
+        margin-right: 10px;
+        
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 60%;
+    }
+    .h2_data > h2{
+        font-size: 18px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 14px;
+    }
 
 }
 @media(max-width: 480px){
@@ -512,6 +630,56 @@
     .texto_noticia > a >p{
         display: none;
     }
+    .destaque{
+        display: none;
+    }
+    .Playtation,.xbox,.nitendo,.pc{
+        width: 100%;
+        padding: 0px;
+        height: 100%;
+        
+    }
+    .caixa_playstation{
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: 100%;
+    
+        
+    }
+
+    .not_paly{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        
+    }
+    .img_not{
+        width: 130px;
+        height: 80px;
+        
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 60%;
+    }
+    .h2_data > h2{
+        font-size: 13px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 12px;
+        
+        margin-top: 20px;
+    }
+    
 
 }
 @media(max-width: 390px){
@@ -639,6 +807,55 @@
     .texto_noticia > a >p{
         display: none;
     }
+    .destaque{
+        display: none;
+    }
+    .Playtation,.xbox,.nitendo,.pc{
+        width: 100%;
+        padding: 0px;
+        height: 100%;
+        
+    }
+    .caixa_playstation{
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: 100%;
+    
+        
+    }
+
+    .not_paly{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        
+    }
+    .img_not{
+        width: 100px;
+        height: 70px;
+        
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 60%;
+    }
+    .h2_data > h2{
+        font-size: 12px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 12px;
+        margin-top: 17px;
+    }
+
 
 }
 
@@ -766,6 +983,54 @@
     }
     .texto_noticia > a >p{
         display: none;
+    }
+    .destaque{
+        display: none;
+    }
+    .Playtation,.xbox,.nitendo,.pc{
+        width: 100%;
+        padding: 0px;
+        height: 100%;
+        
+    }
+    .caixa_playstation{
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: 100%;
+    
+        
+    }
+
+    .not_paly{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        
+    }
+    .img_not{
+        width: 100px;
+        height: 70px;
+        
+    }
+    .h2_data{
+        position: relative;
+        
+        width: 60%;
+    }
+    .h2_data > h2{
+        font-size: 10px;
+    }
+    .h2_data > p{
+        position: absolute;
+        transform: translateY(-100%);
+        left: 0%;
+        font-size: 10px;
+        margin-top: 17px;
     }
 
 }
