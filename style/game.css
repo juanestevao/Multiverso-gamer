@@ -243,14 +243,22 @@ header{
 }
 
 .destaque{
-    border: 1px solid black;
     position: absolute;
-    right: 0;
-    top: 18px;
-    width: 24%;
-    height: 94.5%;
-    margin: 20px 10px;
-    text-align: center;
+    left: 70%;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    
+    
+   
+}
+.fixa{
+    z-index: 10;
+    width: 100%;
+    height: 13%;
+    background-color: #e04495;
+    position: sticky;
+    top: 20%;
 }
 .img_not{
     width: 100%;

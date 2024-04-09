@@ -55,7 +55,16 @@
             <div class="box_lateral_mobile">
                 <ul>
                     <li class="marcado"><a href="index.html"><i class='bx bxs-label'></i>Noticias</a></li>
-                    <li><a href="games.html"><i class='bx bxs-label'></i>Games</a></li>
+                    <li class="btn_games"><i class='bx bxs-label'></i>Games<button class="button_aba_game" ><i class='bx bx-chevron-down'></i></button></li>
+                    <div class="link_games_mob">
+                        <ul>
+                            <li><a href="#noticias_geral">Destaque</a></li>
+                            <li><a href="#Playstation">Playstation</a></li>
+                            <li><a href="#xbox">Xbox</a></li>
+                            <li><a href="#nitendo">Nitendo</a></li>
+                            <li><a href="#pc">PC</a></li>
+                        </ul>
+                    </div>
                     <li><a href="#Promoções"><i class='bx bxs-label'></i>Promoções</a></li>
                     <li><a href="#Reviws"><i class='bx bxs-label'></i>Reviws</a></li>
                     <li><a href="#Lançamentos"><i class='bx bxs-label'></i>Lançamentos</a></li>
@@ -68,6 +77,7 @@
         </div>
     </header>
     <main id="noticias_geral">
+        
         <article class="article">
             <h1 class="h1">GAMES</h1>
             <div class="slide_duo">
@@ -100,6 +110,11 @@
                 </div>
             </div>
             <div class="noticia_game">
+                <aside class="destaque">
+                    <div class="fixa">
+                        <h1>destaque</h1>
+                    </div>
+                </aside>
                 <div class="caixa_game">
                    <div class="img_game_not">
                     <img src="capas_noticias_games/super_mario600.jpg" alt="">
@@ -245,9 +260,7 @@
                     </div>
                 </div>
             </section>
-            <aside class="destaque">
-                <h1>destaque</h1>
-            </aside>
+            
         </article>
         <article class="xbox" id="xbox">
             <h1>Xbox</h1>
@@ -289,9 +302,7 @@
                     </div>
                 </div>
             </section>
-            <aside class="destaque">
-                <h1>destaque</h1>
-            </aside>
+            
         </article>
         <article class="nitendo" id="nitendo">
             <h1>Nitendo</h1>
@@ -333,9 +344,7 @@
                     </div>
                 </div>
             </section>
-            <aside class="destaque">
-                <h1>destaque</h1>
-            </aside>
+            
         </article>
         <article class="pc" id="pc">
             <h1>PC</h1>
@@ -377,13 +386,12 @@
                     </div>
                 </div>
             </section>
-            <aside class="destaque">
-                <h1>destaque</h1>
-            </aside>
+            
         </article>
     </main>
     <script src="js/caixa_mobile.js"></script>
     <script src="js/slide.js"></script>
     <script src="js/destaque.js"></script>
+    <script src="js/btn_games.js"></script>
 </body>
 </html>
