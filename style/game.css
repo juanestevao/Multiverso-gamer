@@ -237,10 +237,23 @@ header{
     height: 40%;
     transition: 0.3s;
 }
-.not_paly > h2{
-    margin-top: 10px;
-    font-size: 1.2em;
+.not_paly > a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
 }
+.not_paly > a:hover{
+    cursor: pointer;
+    color: #cb6ce6;
+}
+.not_paly > a {
+    
+    font-size: 0.8em;
+}
+.h2_data{
+    margin-top: 10px;
+}
+
 
 .destaque{
     position: absolute;

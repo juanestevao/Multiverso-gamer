@@ -1,0 +1,172 @@
+body{
+    width: 98vw;
+    height: 100vh;
+}
+#caixa_destaque{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    
+    padding: 0 100px;
+}
+.caixa_principal_destaque{
+    
+    width: 100%;
+    
+}
+.caixa_principal_destaque > h1{
+    font-size: 2.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.caixa_principal_destaque > h2{
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgb(140, 139, 139);
+    margin-bottom: 3%;
+}
+
+.data-publicaçao{
+    margin-bottom: 5%;
+}
+.noticia_destaque{
+    width: 65%;
+    height: 100%;
+    
+}
+
+.propagandas-destaque{
+    top: 43%;
+    right: 6%;
+    position: absolute;
+    height: 1100px;
+    
+    width: 27%;
+    
+}
+
+.primeira_info{
+    
+    height: 300px;
+    width: 100%;
+}
+
+.img_info{
+    
+    height: 200px;
+    width: 100%;
+}
+.img_info > img{
+    width: 100%;
+    height: 100%;
+}
+
+.info_data > h2{
+    font-size: 1.2em;
+}
+.info_data > p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.img_destaque{
+    
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.img_destaque > img{
+    width: 100%;
+    height: 100%;
+    
+}
+.credito_img{
+    font-style: italic;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 30px;
+    
+}
+.paragrafo{
+    margin-bottom: 40px;
+}
+
+.segunda_img{
+    
+    width: 500px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.segunda_img > img{
+    width: 100%;
+    height: 100%;
+}
+
+#veja_tambem{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 170%;
+    padding: 0 100px;
+}
+
+#veja_tambem > h1{
+    font-size: 2em;
+    color: #5ce1e6;
+    text-shadow: 2px 1px 1px #cb6ce6;
+}
+
+.not_lateral{
+    margin-top: 30px;
+    
+    height: 770px;
+    width: 100%;
+
+}
+.box_principal{
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+.box{
+    
+    width: 100%;
+    height: 15%;
+    margin-top: 10px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.img_box{
+    background-color: #cb6ce6;
+    width: 30%;
+    height: 70%;
+}
+.img_box > img{
+    width: 100%;
+    height: 100%;
+}
+
+.info_box{
+    padding: 8px 0px;
+   
+    width: 57%;
+    margin-left: 10px;
+}
+.info_box > h2{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.info_box > p{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+
+

@@ -1,0 +1,617 @@
+@media(max-width: 1200px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 48px;
+        
+        margin: 20px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 20px;
+        
+    }
+    .data-publicaçao{
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 95vw;
+        height: 500px;
+        padding: 10px;
+    }
+    .credito_img{
+        font-size: 22px;
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 33px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        padding: 10px;
+        width: 95vw;
+        height: 500px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 170%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        font-size: 3em;
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 800px;
+        margin-bottom: 40px;
+        font-size: 1.9em;
+    }
+    .data{
+        font-size: 30px;
+    }
+
+
+
+}
+
+@media(max-width: 1080px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 48px;
+        
+        margin: 20px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 20px;
+        
+    }
+    .data-publicaçao{
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 95vw;
+        height: 500px;
+        padding: 10px;
+    }
+    .credito_img{
+        font-size: 22px;
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 33px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        padding: 10px;
+        width: 95vw;
+        height: 500px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 170%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        font-size: 3em;
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 800px;
+        margin-bottom: 40px;
+        font-size: 1.9em;
+    }
+    .data{
+        font-size: 30px;
+    }
+
+
+
+}
+
+@media(max-width: 900px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 43px;
+        
+        margin: 20px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 27px;
+        margin: 20px;
+    }
+    
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 20px;
+        
+    }
+    .data-publicaçao{
+        font-size: 23px;
+        margin: 20px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 95vw;
+        height: 400px;
+        padding: 10px;
+    }
+    .credito_img{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        padding: 10px;
+        width: 95vw;
+        height: 400px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 170%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        font-size: 2.5em;
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 600px;
+        margin-bottom: 40px;
+        font-size: 1.6em;
+    }
+    .data{
+        font-size: 22px;
+    }
+
+
+
+}
+
+@media(max-width: 780px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 36px;
+        
+        margin: 20px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 25px;
+        margin: 20px;
+    }
+    
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 20px;
+        
+    }
+    .data-publicaçao{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 95vw;
+        height: 400px;
+        padding: 10px;
+    }
+    .credito_img{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        padding: 10px;
+        width: 95vw;
+        height: 400px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 170%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        font-size: 2.5em;
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 600px;
+        margin-bottom: 40px;
+        font-size: 1.6em;
+    }
+    .data{
+        font-size: 22px;
+    }
+
+
+
+}
+
+@media(max-width: 600px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 33px;
+        
+        margin: 20px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 20px;
+        
+    }
+    .data-publicaçao{
+        font-size: 17px;
+        margin: 20px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 95vw;
+        height: 300px;
+        padding: 10px;
+    }
+    .credito_img{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        padding: 10px;
+        width: 95vw;
+        height: 300px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 150%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        font-size: 2.5em;
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 450px;
+        margin-bottom: 40px;
+        font-size: 1.3em;
+    }
+    .data{
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media(max-width: 480px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 25px;
+        
+        margin: 10px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .caixa_principal_destaque > p{
+        
+
+    }
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 10px;
+        
+    }
+    .data-publicaçao{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 100vw;
+        height: 200px;
+    }
+    .credito_img{
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        width: 100vw;
+        height: 200px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 150%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        font-size: 1em;
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .data{
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media(max-width: 380px){
+    #caixa_destaque{
+        padding: 0;
+        
+        top: 15%;
+    }
+    .propagandas-destaque{
+        display: none;
+    }
+    .caixa_principal_destaque > h1{
+        font-size: 25px;
+        
+        margin: 10px;
+    }
+    .caixa_principal_destaque > h2{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .caixa_principal_destaque > p{
+        
+
+    }
+    .noticia_destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        padding: 10px;
+        
+    }
+    .data-publicaçao{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .img_destaque{
+        margin-top: 20px;
+        width: 100vw;
+        height: 200px;
+    }
+    .credito_img{
+        margin: 10px;
+    }
+    .paragrafo{
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .segunda_img{
+        width: 100vw;
+        height: 200px;
+    }
+    #veja_tambem{
+        position: relative;
+        top: 170%;
+        padding: 0px;
+        
+        
+    }
+    #veja_tambem > h1{
+        text-align: center;
+        position: relative;
+        top: -10%;
+
+        
+    }
+    .caixa_playstation{
+        display: grid;
+        margin: -15px;
+        width: 100vw;
+        
+    }
+    .not_paly{
+        position: relative;
+        padding: 0;
+        width: 90vw;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+
+
+}

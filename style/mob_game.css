@@ -294,9 +294,9 @@
         
     }
 
-    .not_paly{
+    .not_paly > a{
         display: flex;
-        width: 100%;
+        width: 92vw;
         height: 170px;
         margin-top: 10px;
         align-items: center;
@@ -313,7 +313,7 @@
     .h2_data{
         position: relative;
         
-        width: 60%;
+        width: 70%;
     }
     .h2_data > h2{
         font-size: 22px;
@@ -473,17 +473,18 @@
         
     }
 
-    .not_paly{
+    .not_paly > a{
         display: flex;
-        width: 100%;
+        width: 90vw;
         height: 140px;
         margin-top: 10px;
         align-items: center;
-        
+        margin: 0;
         padding: 0;
         
     }
     .img_not{
+        margin-top: 10px;
         width: 170px;
         height: 120px;
         margin-right: 10px;
@@ -492,7 +493,7 @@
     .h2_data{
         position: relative;
         
-        width: 60%;
+        width: 70%;
     }
     .h2_data > h2{
         font-size: 18px;
@@ -648,11 +649,12 @@
         
     }
 
-    .not_paly{
+    .not_paly > a{
         display: flex;
-        width: 100%;
+        width: 90vw;
         height: 100px;
-        margin-top: 10px;
+        
+        margin: 0;
         align-items: center;
         justify-content: space-between;
         padding: 0;
@@ -666,7 +668,7 @@
     .h2_data{
         position: relative;
         
-        width: 60%;
+        width: 70%;
     }
     .h2_data > h2{
         font-size: 13px;
@@ -825,17 +827,21 @@
         
     }
 
-    .not_paly{
+
+        
+        
+    .not_paly > a{
         display: flex;
-        width: 100%;
+        width: 90vw;
         height: 100px;
         margin-top: 10px;
-        align-items: center;
         justify-content: space-between;
+        
         padding: 0;
         
     }
     .img_not{
+        margin-top: 10px;
         width: 100px;
         height: 70px;
         
@@ -843,7 +849,7 @@
     .h2_data{
         position: relative;
         
-        width: 60%;
+        width: 70%;
     }
     .h2_data > h2{
         font-size: 12px;
@@ -856,8 +862,8 @@
         margin-top: 17px;
     }
 
-
 }
+
 
 @media(max-width: 320px){
     .img_fundo{
@@ -998,20 +1004,23 @@
         margin: 0;
         display: block;
         height: 100%;
+        
     
         
     }
 
-    .not_paly{
+    .not_paly > a{
         display: flex;
-        width: 100%;
+        width: 100vw;
         height: 100px;
         margin-top: 10px;
         align-items: center;
         justify-content: space-between;
         padding: 0;
         
+        
     }
+    
     .img_not{
         width: 100px;
         height: 70px;
