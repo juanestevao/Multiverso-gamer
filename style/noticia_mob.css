@@ -497,7 +497,7 @@
     }
     #veja_tambem{
         position: relative;
-        top: 150%;
+        top: 190%;
         padding: 0px;
         
         
@@ -511,17 +511,18 @@
     }
     .caixa_playstation{
         display: grid;
-        margin: -15px;
+        
         width: 100vw;
         
     }
     .not_paly{
-        font-size: 1em;
+        font-size: 14px;
         position: relative;
         padding: 0;
-        width: 90vw;
+        width: 95vw;
         height: 300px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
+        left: 15px;
     }
 
     .data{
@@ -586,7 +587,7 @@
     }
     #veja_tambem{
         position: relative;
-        top: 170%;
+        top: 200%;
         padding: 0px;
         
         
